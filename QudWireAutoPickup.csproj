@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>Mods</AssemblyName>
 		<PackageId>Mods</PackageId>
@@ -13,7 +13,6 @@
 		<Reference Include="$(QudLibPath)/0Harmony.dll" />
 		<Reference Include="$(QudLibPath)/Accessibility.dll" />
 		<Reference Include="$(QudLibPath)/AiUnityCommon.dll" />
-		<Reference Include="$(QudLibPath)/Assembly-CSharp.dll" />
 		<Reference Include="$(QudLibPath)/Assembly-CSharp-firstpass.dll" />
 		<Reference Include="$(QudLibPath)/Ionic.Zip.Unity.dll" />
 		<Reference Include="$(QudLibPath)/Microsoft.CodeAnalysis.CSharp.dll" />
@@ -182,5 +181,11 @@
 		<Reference Include="$(QudLibPath)/Unity.MemoryProfiler.dll" />
 		<Reference Include="$(QudLibPath)/UnityMultiSelectDropdown.dll" />
 		<Reference Include="$(QudLibPath)/Unity.Timeline.dll" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="TestFolder\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\QudDecompiled\QudDecompiled.csproj" />
 	</ItemGroup>
 </Project>

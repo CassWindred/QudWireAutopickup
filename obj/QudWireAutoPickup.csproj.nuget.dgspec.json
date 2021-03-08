@@ -1,15 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\firef\\Documents\\!Projects\\QudWireAutopickup\\Mods.csproj": {}
+    "C:\\Users\\firef\\Documents\\!Projects\\QudWireAutopickup\\QudWireAutoPickup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\firef\\Documents\\!Projects\\QudWireAutopickup\\Mods.csproj": {
+    "C:\\Users\\firef\\Documents\\!Projects\\QudDecompiled\\QudDecompiled.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\firef\\Documents\\!Projects\\QudDecompiled\\QudDecompiled.csproj",
+        "projectName": "QudDecompiled",
+        "projectPath": "C:\\Users\\firef\\Documents\\!Projects\\QudDecompiled\\QudDecompiled.csproj"
+      },
+      "frameworks": {
+        "net40": {}
+      }
+    },
+    "C:\\Users\\firef\\Documents\\!Projects\\QudWireAutopickup\\QudWireAutoPickup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\firef\\Documents\\!Projects\\QudWireAutopickup\\Mods.csproj",
+        "projectUniqueName": "C:\\Users\\firef\\Documents\\!Projects\\QudWireAutopickup\\QudWireAutoPickup.csproj",
         "projectName": "Mods",
-        "projectPath": "C:\\Users\\firef\\Documents\\!Projects\\QudWireAutopickup\\Mods.csproj",
+        "projectPath": "C:\\Users\\firef\\Documents\\!Projects\\QudWireAutopickup\\QudWireAutoPickup.csproj",
         "packagesPath": "C:\\Users\\firef\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\firef\\Documents\\!Projects\\QudWireAutopickup\\obj\\",
         "projectStyle": "PackageReference",
@@ -31,7 +41,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\firef\\Documents\\!Projects\\QudDecompiled\\QudDecompiled.csproj": {
+                "projectPath": "C:\\Users\\firef\\Documents\\!Projects\\QudDecompiled\\QudDecompiled.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
