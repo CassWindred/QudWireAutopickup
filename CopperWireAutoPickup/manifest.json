@@ -1,0 +1,10 @@
+{
+	"id": "CopperWireAutoPickup",
+	"loadorder": 10,
+	"title": "{{bright orange|Copper Wire Auto-Pickup}}",
+	"description": "Saving 0.7 seconds of your precious, limited life!",
+	"tags": "Script,UX",
+	"version": "1.0",
+	"author": "Fyrefly",
+	"previewImage": "CopperWireGrab.png"
+}
