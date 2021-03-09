@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <options>
- <option ID="OptionAutogetWire" DisplayText="Auto-pickup wire" Category="Autoget" Type="Checkbox"  Default="Yes"></option>
+ <option ID="OptionAutogetWire" DisplayText="Auto-pickup wire" Category="Autoget" Type="Combo" Values="Never,With Quest,Always" Default="With Quest"></option>
  <option ID="OptionMinimumAutoPickupWireLength" DisplayText="Minimum Wire Length to Auto-pickup" Category="Autoget" Type="Combo" Values="1,3,10,20,50" Default="10"></option>
  
 </options>

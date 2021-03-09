@@ -3,7 +3,8 @@ namespace Fyrefly.CopperWireAutoPickup
 {
     public class Options
     {
-        public static bool AutogetWire => XRL.UI.Options.GetOption("OptionAutogetWire").EqualsNoCase("Yes");
+        public static string AutogetWire => XRL.UI.Options.GetOption("OptionAutogetWire");
+
 
         public static int AutogetWireMinLength
         {
