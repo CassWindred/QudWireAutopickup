@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<AssemblyName>Mods</AssemblyName>
-		<PackageId>Mods</PackageId>
-		<Authors>gnarf, Armithaig, Freehold Games</Authors>
+		<AssemblyName>QudWireAutoPickup</AssemblyName>
+		<PackageId>QudWireAutoPickup</PackageId>
+		<Authors>Fyrefly</Authors>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<LangVersion>7</LangVersion>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
